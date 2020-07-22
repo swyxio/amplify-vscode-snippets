@@ -1,0 +1,36 @@
+{
+  "name": "amplify-vscode-snippets",
+  "displayName": "Amplify VSCode Snippets",
+  "description": "Amplify VSCode Snippets",
+  "version": "0.0.1",
+  "publisher": "swyx",
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "swyx",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sw-yx/amplify-vscode-snippets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sw-yx/amplify-vscode-snippets/issues"
+  },
+  "homepage": "https://github.com/sw-yx/amplify-vscode-snippets#readme"
+}
