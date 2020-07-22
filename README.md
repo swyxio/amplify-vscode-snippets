@@ -2,20 +2,37 @@
 
 this is an unofficial snippets extension for AWS amplify
 
-## Features
+## Snippets Included
 
-Snippets included:
 
-- TypeScript/JavaScript
-  - Amplify Configure
-  - Authenticator
-  - DataStore import/CRUD
-- CSS
-  - Root CSS
-- GraphQL
-  - @auth public read
-  - @auth everything private
-  - basic @model with no auth
+### TypeScript/JavaScript
+
+|     Prefix | Method                                                  |
+| ---------: | ------------------------------------------------------- |
+| `import amplify→` | `import Amplify from 'aws-amplify';import awsconfig from './aws-exports';Amplify.configure(awsconfig);`        |
+| `Authenticator→` | `import { withAuthenticator,AmplifySignOut } from \"@aws-amplify/ui-react\"` |
+| `DataStore import→` | `import { DataStore } from '@aws-amplify/datastore'` etc |
+| `DataStore Read/Create/Update/Delete→` | relevant sample code |
+
+
+
+
+### CSS
+
+|     Prefix | Method                                                  |
+| ---------: | ------------------------------------------------------- |
+| `Amplify :root→` | `--amplify-primary-color/tint/shade`        |
+
+
+
+### GraphQL
+
+|     Prefix | Method                                                  |
+| ---------: | ------------------------------------------------------- |
+| `@auth public read→` | `@auth(rules: [{ allow: owner, queries: null }])`        |
+| `@auth everything private→` | `@auth(rules: [{ allow: owner }])`        |
+| `basic @model with no auth→` | `type Todo @model { /* etc */ }`        |
+
 
 ## Requirements
 

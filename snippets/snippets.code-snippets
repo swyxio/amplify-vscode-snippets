@@ -7,8 +7,8 @@
     ]
   },
   "Amplify Configure": {
-    "prefix": "Amplify Imports and Configure",
-    "description": "amplify imports and configure ",
+    "prefix": "import Amplify and Configure",
+    "description": "import amplify and configure ",
     "body": [
       "import Amplify from 'aws-amplify';",
       "import awsconfig from './aws-exports';",
