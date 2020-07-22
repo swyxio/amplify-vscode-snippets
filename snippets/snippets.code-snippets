@@ -1,14 +1,119 @@
 {    
-  " Broader description goes here" : { 
-    "prefix": "test", 
-    "body": [  
-
-      "snippet bodyline1",
-      "snippet bodyline2",      
-      "last line"
-    ],
-    "description": "Here, input simple description. 
-    It will show up as you start type the prefix on 
-    VS Code editing window"
-  }
+  "Authenticator": {
+    "prefix": "Authenticator",
+    "description": "add Amplify Authenticator UI component",
+    "body": [
+      "import { withAuthenticator,AmplifySignOut } from \"@aws-amplify/ui-react\""
+    ]
+  },
+  "Amplify Configure": {
+    "prefix": "Amplify Imports and Configure",
+    "description": "amplify imports and configure ",
+    "body": [
+      "import Amplify from 'aws-amplify';",
+      "import awsconfig from './aws-exports';",
+      "Amplify.configure(awsconfig);"
+    ]
+  },
+  "DataStore import": {
+    "prefix": "DataStore import",
+    "description": "DataStore import",
+    "body": [
+      "import { DataStore } from '@aws-amplify/datastore'",
+      "import { ${1:TODO} } from './models'",
+      "// // optional - clear datastore when switching users",
+      "// import { Hub } from 'aws-amplify';",
+      "// Hub.listen('auth', async (data) => {",
+      "//   if (data.payload.event === 'signOut') {",
+      "//     await DataStore.clear();",
+      "//   }",
+      "// });",
+      "",
+      "",
+      "// inside a component",
+      "  React.useEffect(() => {",
+      "    fetch${1}()",
+      "    const subscription = DataStore.observe(${1}).subscribe(fetch${1})",
+      "    return () => subscription.unsubscribe()",
+      "  }, [])",
+      "  async function fetch${1}() {",
+      "    const _${1}s = await DataStore.query(${1})",
+      "    // // reminder: setState with the results of ${1}",
+      "    // set${1}s(_${1}s)",
+      "  }",
+      "  async function create${1}(new${1}: ${1}Type) {",
+      "    // reminder: check that newdata is valid",
+      "    await DataStore.save(new ${1}({...${2:new${1}}}))",
+      "    // reminder: clear old state",
+      "  }",
+      "  async function update${1}(new${1}: Partial${1}Type) {",
+      "    const original = await DataStore.query(${1}, new${1}.id);",
+      "    // Models in DataStore are immutable. ",
+      "    // To update a record you must use the copyOf function",
+      "    // to apply updates to the item’s fields rather than mutating the instance directly.",
+      "    await DataStore.save(",
+      "      ${1}.copyOf(original, updated => {",
+      "        updated.FIELD = new${1}.FIELD;",
+      "      })",
+      "    );",
+      "  }",
+      "",
+      "  // delete 1 item",
+      "  async function delete${1}(id: string) {",
+      "    const todelete = await DataStore.query(${1}, id);",
+      "    DataStore.delete(todelete); // or directly pass in instance",
+      "  }",
+      "  // // 2 ways to delete conditional items",
+      "  // await DataStore.delete(Post, post => post.status(\"eq\", PostStatus.DRAFT));",
+      "  // DataStore.delete(todelete, post => post.status(\"eq\", PostStatus.DRAFT));",
+      "  // // delete all items",
+      "  // await DataStore.delete(Post, Predicates.ALL);",
+      "",
+      ""
+    ]
+  },
+  "DataStore Create": {
+    "prefix": "DataStore Create",
+    "description": "DataStore Create",
+    "body": [
+      "  async function create${1}(new${1}: ${1}Type) {",
+      "    // reminder: check that newdata is valid",
+      "    await DataStore.save(new ${1}({...${2:new${1}}}))",
+      "    // reminder: clear old state",
+      "  }"
+    ]
+  },
+  "DataStore Update": {
+    "prefix": "DataStore Update",
+    "description": "DataStore Update",
+    "body": [
+      "  async function update${1}(new${1}: Partial${1}Type) {",
+      "    const original = await DataStore.query(${1}, new${1}.id);",
+      "    // Models in DataStore are immutable. ",
+      "    // To update a record you must use the copyOf function",
+      "    // to apply updates to the item’s fields rather than mutating the instance directly.",
+      "    await DataStore.save(",
+      "      ${1}.copyOf(original, updated => {",
+      "        updated.FIELD = new${1}.FIELD;",
+      "      })",
+      "    );",
+      "  }",
+    ]
+  },
+  "DataStore Delete": {
+    "prefix": "DataStore Delete",
+    "description": "DataStore Delete",
+    "body": [
+      "  // delete 1 item",
+      "  async function delete${1}(id: string) {",
+      "    const todelete = await DataStore.query(${1}, id);",
+      "    DataStore.delete(todelete); // or directly pass in instance",
+      "  }",
+      "  // // 2 ways to delete conditional items",
+      "  // await DataStore.delete(Post, post => post.status(\"eq\", PostStatus.DRAFT));",
+      "  // DataStore.delete(todelete, post => post.status(\"eq\", PostStatus.DRAFT));",
+      "  // // delete all items",
+      "  // await DataStore.delete(Post, Predicates.ALL);",
+    ]
+  },
 }

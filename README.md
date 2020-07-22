@@ -27,6 +27,14 @@ This extension contributes the following settings:
 * `myExtension.enable`: enable/disable this extension
 * `myExtension.thing`: set to `blah` to do something
 
+
+
 ## Known Issues
 
 this is not an official extension! it is just a helper for swyx
+
+
+## Publishing
+
+- `vsce publish minor`
+- https://code.visualstudio.com/api/working-with-extensions/publishing-extension
