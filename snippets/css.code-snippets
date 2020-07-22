@@ -1,0 +1,13 @@
+{
+  "Amplify root CSS": {
+    "prefix": "Amplify:root",
+    "description": "Customize Amplify UI Component Colors",
+    "body": [
+      ":root {",
+      "  --amplify-primary-color: ${1:#663399};",
+      "  --amplify-primary-tint: ${1};",
+      "  --amplify-primary-shade: ${1};",
+      "}"
+    ]
+  }
+}

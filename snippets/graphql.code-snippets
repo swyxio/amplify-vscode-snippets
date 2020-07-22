@@ -1,0 +1,35 @@
+{
+  "@auth public read": {
+    "prefix": "@auth public read",
+    "description": "Only owner can create/update, but everyone can read",
+    "body": [
+      "type Todo @model @auth(rules: [{ allow: owner, queries: null }]) {",
+      "  id: ID!",
+      "  value: String!",
+      "  completed: Boolean",
+      "}"
+    ]
+  },
+  "@auth everything private": {
+    "prefix": "@auth everything private",
+    "description": "only owner can do everything",
+    "body": [
+      "type Todo @model @auth(rules: [{ allow: owner }]) {",
+      "  id: ID!",
+      "  value: String!",
+      "  completed: Boolean",
+      "}"
+    ]
+  },
+  "basic @model with no auth": {
+    "prefix": "basic @model with no auth",
+    "description": "basic @model with no auth",
+    "body": [
+      "type Todo @model {",
+      "  id: ID!",
+      "  value: String!",
+      "  completed: Boolean",
+      "}"
+    ]
+  }
+}

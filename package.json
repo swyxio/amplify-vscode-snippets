@@ -12,10 +12,22 @@
   ],
   "contributes": {
     "snippets": [
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/snippets.code-snippets"
-      }
+        {
+            "language": "typescriptreact",
+            "path": "./snippets/snippets.code-snippets"
+        },
+        {
+            "language": "javascript",
+            "path": "./snippets/snippets.code-snippets"
+        },
+        {
+            "language": "css",
+            "path": "./snippets/css.code-snippets"
+        },
+        {
+            "language": "graphql",
+            "path": "./snippets/graphql.code-snippets"
+        }
     ]
   },
   "keywords": [
