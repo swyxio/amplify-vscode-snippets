@@ -1,6 +1,12 @@
 # amplify-vscode-snippets 
 
-this is an unofficial snippets extension for AWS amplify
+this is an unofficial snippets extension for AWS amplify.
+
+## Install
+
+You can add this by searching `Amplify Snippets` in your VS Code Extensions.
+
+Direct link here: https://marketplace.visualstudio.com/items?itemName=sw-yx.amplify-vscode-snippets
 
 ## Snippets Included
 
