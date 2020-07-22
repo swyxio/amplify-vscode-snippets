@@ -2,7 +2,7 @@
   "name": "amplify-vscode-snippets",
   "displayName": "Amplify VSCode Snippets",
   "description": "Amplify VSCode Snippets",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publisher": "sw-yx",
   "engines": {
     "vscode": "^1.40.0"
