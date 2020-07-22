@@ -2,7 +2,7 @@
   "name": "amplify-vscode-snippets",
   "displayName": "Amplify VSCode Snippets",
   "description": "Amplify VSCode Snippets",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "sw-yx",
   "engines": {
     "vscode": "^1.40.0"
@@ -18,7 +18,9 @@
       }
     ]
   },
-  "keywords": ["Snippets"],
+  "keywords": [
+    "Snippets"
+  ],
   "author": "swyx",
   "license": "MIT",
   "repository": {
