@@ -4,13 +4,18 @@ this is an unofficial snippets extension for AWS amplify
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Snippets included:
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- TypeScript/JavaScript
+  - Amplify Configure
+  - Authenticator
+  - DataStore import/CRUD
+- CSS
+  - Root CSS
+- GraphQL
+  - @auth public read
+  - @auth everything private
+  - basic @model with no auth
 
 ## Requirements
 
@@ -32,7 +37,6 @@ This extension contributes the following settings:
 ## Known Issues
 
 this is not an official extension! it is just a helper for swyx
-
 
 ## Publishing
 
