@@ -3,7 +3,7 @@
 
 This is an unofficial snippets extension for [AWS Amplify](https://docs.amplify.aws/cli) users. Speed up your development by scaffolding out commonly used code snippets for [Amplify CSS](https://blog.kylegalbraith.com/2020/03/31/customizing-the-aws-amplify-authentication-ui-with-your-own-react-components/), [UI Components](https://docs.amplify.aws/ui/), [API](https://docs.amplify.aws/guides/api-graphql/)/[DataStore](https://docs.amplify.aws/lib/datastore/) calls, and [GraphQL Transform](https://docs.amplify.aws/cli/graphql-transformer/overview) directives.
 
-> :warning: this is unofficial and has not formally maintained by the Amplify team! It is a personal project of some employees.
+> :warning: this is unofficial and not formally maintained by the Amplify team! It is a personal project of some employees.
 
 > On the plus side, it's very simple. pls feel free to fork and customize your own!
 
