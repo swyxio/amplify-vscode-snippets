@@ -28,7 +28,9 @@ Direct link here: https://marketplace.visualstudio.com/items?itemName=sw-yx.ampl
 ## Snippets Included
 
 
-### TypeScript/JavaScript
+### General TypeScript/JavaScript
+
+*Snippets for Angular and Vue are planned.*
 
 |     Prefix | Method                                                  |
 | ---------: | ------------------------------------------------------- |
@@ -36,8 +38,6 @@ Direct link here: https://marketplace.visualstudio.com/items?itemName=sw-yx.ampl
 | `Authenticator→` | `import { withAuthenticator,AmplifySignOut } from \"@aws-amplify/ui-react\"` |
 | `DataStore import→` | `import { DataStore } from '@aws-amplify/datastore'` etc |
 | `DataStore Read/Create/Update/Delete→` | relevant sample code |
-
-
 
 
 ### CSS
