@@ -1,6 +1,8 @@
-# amplify-vscode-snippets 
+![image](https://user-images.githubusercontent.com/6764957/88305633-4eae5080-cd3c-11ea-88a5-49c61030fe99.png)
 
-this is an unofficial snippets extension for AWS amplify.
+This is an unofficial snippets extension for [AWS Amplify](https://docs.amplify.aws/cli) users. Speed up your development by scaffolding out commonly used code snippets for [Amplify CSS](https://blog.kylegalbraith.com/2020/03/31/customizing-the-aws-amplify-authentication-ui-with-your-own-react-components/), [UI Components](https://docs.amplify.aws/ui/), [API](https://docs.amplify.aws/guides/api-graphql/)/[DataStore](https://docs.amplify.aws/lib/datastore/) calls, and [GraphQL Transform](https://docs.amplify.aws/cli/graphql-transformer/overview)/) directives.
+
+> :warning: this is unofficial and has no promise of maintenance! on the plus side, it's very simple. pls feel free to fork and customize your own!
 
 ## Install
 
