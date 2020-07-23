@@ -5,7 +5,7 @@ This is an unofficial snippets extension for [AWS Amplify](https://docs.amplify.
 
 > :warning: this is unofficial and not formally maintained by the Amplify team! It is a personal project of some employees.
 
-> On the plus side, it's very simple. pls feel free to fork and customize your own!
+> On the plus side, it's very simple. pls feel free to fork and customize your own, or propose additions! I may not accept them based on personal preference.
 
 <details>
 <summary>
