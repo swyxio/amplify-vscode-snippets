@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/6764957/88305711-6554a780-cd3c-11ea-84f4-99c13a902d7e.png)
+<img src="https://user-images.githubusercontent.com/6764957/88305711-6554a780-cd3c-11ea-84f4-99c13a902d7e.png" width=300 />
 
 
 This is an unofficial snippets extension for [AWS Amplify](https://docs.amplify.aws/cli) users. Speed up your development by scaffolding out commonly used code snippets for [Amplify CSS](https://blog.kylegalbraith.com/2020/03/31/customizing-the-aws-amplify-authentication-ui-with-your-own-react-components/), [UI Components](https://docs.amplify.aws/ui/), [API](https://docs.amplify.aws/guides/api-graphql/)/[DataStore](https://docs.amplify.aws/lib/datastore/) calls, and [GraphQL Transform](https://docs.amplify.aws/cli/graphql-transformer/overview) directives.
