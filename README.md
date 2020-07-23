@@ -7,11 +7,23 @@ This is an unofficial snippets extension for [AWS Amplify](https://docs.amplify.
 
 > On the plus side, it's very simple. pls feel free to fork and customize your own!
 
+<details>
+<summary>
+  <b>See Gif Demo</b>
+</summary>
+
+![amplifysnippets](https://user-images.githubusercontent.com/6764957/88306665-997c9800-cd3d-11ea-851b-ecc872af68df.gif)
+
+</details>
+
+
 ## Install
 
 You can add this by searching `Amplify Snippets` in your VS Code Extensions.
 
 Direct link here: https://marketplace.visualstudio.com/items?itemName=sw-yx.amplify-vscode-snippets
+
+
 
 ## Snippets Included
 
